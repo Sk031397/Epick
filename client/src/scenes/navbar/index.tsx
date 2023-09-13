@@ -17,20 +17,7 @@ const Navbar = (props: Props) => {
           </Typography>
         </FlexBetween>
         {/* Middle Side */}
-        <FlexBetween>
-        <FormControl fullWidth>
-            <InputLabel id="demo-simple-select-label">Esp</InputLabel>
-              <Select
-                labelId="demo-simple-select-label"
-                id="demo-simple-select"
-                label="Data"
-              >
-              <MenuItem value={10}>Ten</MenuItem>
-              <MenuItem value={20}>Twenty</MenuItem>
-              <MenuItem value={30}>Thirty</MenuItem>
-          </Select>
-        </FormControl>
-        </FlexBetween>
+
         {/*Right Side*/}
         <FlexBetween gap="2rem">
           <Box sx={{"&:hover":{color:palette.primary[100]}}}>
